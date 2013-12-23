@@ -1,6 +1,6 @@
 Overview
 ================
-This is the Dash Coda plugin, which can be used to easily trigger a search in [Dash](http://kapeli.com/dash) from within Coda.
+This Coda plugin can be used to easily trigger a search in [Dash](http://kapeli.com/dash) (from within Coda).
 
 # Instructions
 
