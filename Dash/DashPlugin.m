@@ -38,7 +38,7 @@
 
 - (BOOL)dashIsInstalled
 {
-    if(![[NSWorkspace sharedWorkspace] URLForApplicationWithBundleIdentifier:@"com.kapeli.dash"])
+    if(![[NSWorkspace sharedWorkspace] URLForApplicationWithBundleIdentifier:@"com.kapeli.dash"] && ![[NSWorkspace sharedWorkspace] URLForApplicationWithBundleIdentifier:@"com.kapeli.dashbeta"])
     {
         if([[NSAlert alertWithMessageText:@"Dash" defaultButton:@"Download Dash" alternateButton:@"Cancel" otherButton:nil informativeTextWithFormat:@"Dash is not installed. Please download Dash."] runModal] == NSAlertDefaultReturn)
         {
@@ -64,6 +64,11 @@
                     if(wordRange.location != NSNotFound)
                     {
                         searchString = [textView stringWithRange:wordRange];
+                        if([searchString rangeOfCharacterFromSet:[NSCharacterSet alphanumericCharacterSet]].location != NSNotFound)
+                        {
+                            NSCharacterSet *trimSet = [[NSCharacterSet alphanumericCharacterSet] invertedSet];
+                            searchString = [searchString stringByTrimmingCharactersInSet:trimSet];
+                        }
                     }
                     else
                     {
