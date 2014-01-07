@@ -4,7 +4,7 @@ This Coda plugin can be used to easily trigger a search in [Dash](http://kapeli.
 
 # Instructions
 
-* Download the [latest version](https://github.com/Kapeli/Dash-Coda-Plugin/releases/download/1.0.0/Dash_Coda.zip) of the plugin
+* Download the [latest version](https://github.com/Kapeli/Dash-Coda-Plugin/releases/download/1.0.1/Dash_Coda.zip) of the plugin
 * Unarchive and double click to install
 * You can now trigger a Dash search in Coda by placing the text cursor inside of a word and pressing CMD+Shift+' or by going to Plugins > Look Up in Dash in the top menu
 * You can change the default keyboard shortcut in System Preferences > Keyboard > Shortcuts > App Shortcuts. If you don't know how, click [here](http://lifehacker.com/5720087/how-to-remap-any-keyboard-shortcut-in-mac-os-x) for instructions.
