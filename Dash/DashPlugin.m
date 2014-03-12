@@ -25,7 +25,7 @@
 	if ( (self = [super init]) != nil )
 	{
 		controller = inController;
-        [controller registerActionWithTitle:@"Look Up in Dash" underSubmenuWithTitle:nil target:self selector:@selector(lookUp:) representedObject:nil keyEquivalent:@"~@'" pluginName:@"Dash"];
+        [controller registerActionWithTitle:@"Look Up in Dash" underSubmenuWithTitle:nil target:self selector:@selector(lookUp:) representedObject:nil keyEquivalent:@"^h" pluginName:@"Dash"];
 	}
     
 	return self;
