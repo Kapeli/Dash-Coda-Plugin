@@ -19,7 +19,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.0</string>
+	<string>1.1.0</string>
 	<key>NSPrincipalClass</key>
 	<string>DashPlugIn</string>
 	<key>CodaPlugInSupportedAPIVersion</key>
@@ -27,7 +27,7 @@
 	<key>CodaPlugInMinimumAPIVersion</key>
 	<string>1</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1</string>
+	<string>1.1.0</string>
 	<key>CodaAuthorString</key>
 	<string>Kapeli</string>
 	<key>CodaDescriptionString</key>
