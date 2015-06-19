@@ -38,7 +38,7 @@
 
 - (BOOL)dashIsInstalled
 {
-    if(![[NSWorkspace sharedWorkspace] URLForApplicationWithBundleIdentifier:@"com.kapeli.dash"] && ![[NSWorkspace sharedWorkspace] URLForApplicationWithBundleIdentifier:@"com.kapeli.dashbeta"])
+    if(![[NSWorkspace sharedWorkspace] URLForApplicationWithBundleIdentifier:@"com.kapeli.dashdoc"] && ![[NSWorkspace sharedWorkspace] URLForApplicationWithBundleIdentifier:@"com.kapeli.dash"] && ![[NSWorkspace sharedWorkspace] URLForApplicationWithBundleIdentifier:@"com.kapeli.dashbeta"])
     {
         if([[NSAlert alertWithMessageText:@"Dash" defaultButton:@"Download Dash" alternateButton:@"Cancel" otherButton:nil informativeTextWithFormat:@"Dash is not installed. Please download Dash."] runModal] == NSAlertDefaultReturn)
         {
